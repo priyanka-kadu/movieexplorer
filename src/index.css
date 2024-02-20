@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #00050d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+    background-color: #00050d;
+    padding: 13px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0px 0px 6px #ffffff;
+    box-shadow: 0px 3px 8px 2px #848397
+}
+
+.main-card {
+    width: 100%;
+    height: auto;
+
+}
+
+.card {
+    margin: 15px;
+    width: 307px;
+    float: left;
+    border-radius: 12px;
+    background-color: black;
+    box-shadow: 0px 0px 10px -6px rgba(137, 152, 204, 0.616);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px -1px rgba(137, 152, 204, 0.616);
+    transform: scale(1.1, 1.1);
+}
+
+.card-image {
+    height: 200px;
+    width: 307px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+.card-info {
+    padding: 16px 24px 24px 24px;
+    width: 307px;
+    color: #fff;
+    background-color: black;
+    border-radius: 12px;
+}
+
+.card-platform {
+    color: #868686;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: black;
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+}
+
+.card-title {
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+
+}
+
+button {
+    color: #fff;
+    padding: 5px 8px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+
 }
